@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  padding: 0;
+  display: flexbox;
+  height: 100vh;
+  background-image: url("../../src/componant/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-cu {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(90deg, rgb(37, 31, 130) 0%, rgba(9, 75, 121, 0.818452381) 0%, rgba(255, 0, 48, 0.8520658263) 100%);
+  padding: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Arsenal SC", sans-serif;
+  box-shadow: 0px 0px 10px rgb(46, 32, 32);
+}
+.container-cu .header {
+  font-size: 2.5rem;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.container-cu .date-time {
+  font-size: 13px;
+  text-align: center;
+}
+.container-cu .weather-status {
+  margin-top: 12%;
+  font-size: 1.8rem;
+  font-family: cursive;
+  font-weight: 400;
+  margin-bottom: 3%;
+  margin-left: -150px;
+}
+.container-cu .temp {
+  margin-left: -81px;
+  font-size: 5.5rem;
+  margin-top: -45px;
+  font-family: cursive;
+  letter-spacing: -5px;
+  color: white;
+  text-shadow: rgb(248, 241, 211) 1px 0 3px;
+}
+.container-cu .info {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container-cu .info .right {
+  text-align: start;
+}
+.container-cu .info .left {
+  text-align: start;
+}
+
+.navbar {
+  padding: 0px 10px;
+  background-color: rgb(89, 109, 241);
+}
+
+@media (max-width: 600px) {
+  .container-cu {
+    width: 800px !important;
+    height: 80vh;
+  }
+}/*# sourceMappingURL=style.css.map */
