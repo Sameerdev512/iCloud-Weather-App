@@ -27,18 +27,18 @@ const Item = ({city,detail }) => {
       </div>
       <div className="info">
         <div className="left">
-          <div>Wind km/h : </div>
-          <div>Wind dirc &ensp; : </div>
-          <div>Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </div>
-          <div>Region&ensp;&ensp;&ensp;&ensp;: </div>
-          <div>Last updated :&nbsp;</div>
+          <div>Wind km/h  </div>
+          <div>Wind dirc &ensp;  </div>
+          <div>Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+          <div>Region&ensp;&ensp;&ensp;&ensp; </div>
+          <div>Last updated &nbsp;</div>
         </div>
         <div className="right">
-          <div>{detail.wind_speed ? detail.wind_speed : "Nan"}</div>
-          <div>{detail.wind_dir ? detail.wind_dir : "Nan"}</div>
-          <div>{detail.country ? detail.country : "Nan"}</div>
-          <div>{detail.region ? detail.region : "Nan"}</div>
-          <div>{detail.update_time ? detail.update_time : "Nan"}</div>
+          <div>: &ensp;&ensp;{detail.wind_speed ? detail.wind_speed : "Nan"}</div>
+          <div>: &ensp;&ensp;{detail.wind_dir ? detail.wind_dir : "Nan"}</div>
+          <div>: &ensp;&ensp;{detail.country ? detail.country : "Nan"}</div>
+          <div>: &ensp;&ensp;{detail.region ? detail.region : "Nan"}</div>
+          <div>: &ensp;&ensp;{detail.update_time ? detail.update_time : "Nan"}</div>
         </div>
       </div>
     </div>

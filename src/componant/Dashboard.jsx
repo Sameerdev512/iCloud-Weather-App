@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useRef, useState } from "react";
 import Item from "./Item";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Dashboard = () => {
   const [detail, setDetail] = useState({
@@ -48,7 +49,7 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container1">
       <Navbar handleClick={handleClick} />
       <Item city={city} detail={detail} />
     </div>
